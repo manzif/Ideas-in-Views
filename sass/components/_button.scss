@@ -44,3 +44,25 @@
         transition: all .4s;
     }
 }
+
+.btn-text {
+    &:link,
+    &:visited {
+        font-size: $default-font-size;
+        color: rgba(5, 40, 80, 0.8);
+        display: inline-block;
+        text-decoration: none;
+        border-bottom: .1rem solid rgba(5, 40, 80, 0.8);
+        padding: .3rem;
+    }
+    &:hover {
+        background-color: rgba(5, 40, 80, 0.8);
+        color: $color-white;
+        box-shadow: 0 1rem 2rem rgba($color-primary, .15);
+        transform: translateY(-.2rem);
+    }
+    &:active {
+        box-shadow: 0 .5rem 1rem rgba($color-primary, .15);
+        transform: translateY(0);
+    }
+}
