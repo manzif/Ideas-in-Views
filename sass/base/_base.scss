@@ -27,3 +27,7 @@ body {
         padding: 0; 
     }
 }
+::selection{
+    background-color: rgba(5, 40, 80, 0.8);
+    color: $color-white;
+}
